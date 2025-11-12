@@ -15,9 +15,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: configure
       run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+    - name: compile
+      run: gcc fatorial_test.c -o fatorial_test
+    - name: run
+      run: ./fatorial_test
