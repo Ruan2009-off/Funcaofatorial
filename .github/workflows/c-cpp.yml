@@ -15,5 +15,5 @@ jobs:
     - uses: actions/checkout@v4
     - name: compile
       run: gcc fatorial_test.c -o fatorial_test
-    - name: run
+    - name: execute
       run: ./fatorial_test
