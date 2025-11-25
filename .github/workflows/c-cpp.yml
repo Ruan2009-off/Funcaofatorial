@@ -16,4 +16,4 @@ jobs:
     - name: compile
       run: gcc fatorial_test.c -o fatorial_test
     - name: run
-      run: .\fatorial_test
+      run: ./fatorial_test
